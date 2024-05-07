@@ -1,0 +1,88 @@
+body {
+    font-family: serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #d9e7e5;
+}
+
+header {
+	top: 20px; /* Posicionamiento superior */
+    left: 0; /* Posicionamiento izquierdo */
+    width: 200px; /* Ancho del menú */
+    height: 100vh; /* Altura del menú (100% del viewport) */
+    background-color: #3a5c59; /* Color de fondo del menú */
+    padding: 20px; /* Padding interno del menú */
+	flex:1;
+    transition: all 0.3s ease; /* Animación de transición para suavizar los cambios */
+}
+
+h1 {
+    text-align: center;
+	display:block;
+    text-decoration:underline;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #28554f;
+	display: block; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Padding para cada enlace */
+    text-decoration: none; /* Elimina la decoración por defecto */
+    color: #fff; /* Color del texto de los enlaces */
+    transition: color 0.3s ease; /* Animación de transición para el color */
+
+}
+
+main {
+    padding: 20px;
+	display: inline;
+	flex:4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+}  
+
+.contenedor{
+	display:flex;
+}
